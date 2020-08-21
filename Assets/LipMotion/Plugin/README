@@ -1,0 +1,8 @@
+To configure: 
+
+mkdir build && cd build
+cmake .. -DUSE_AVX_INSTRUCTIONS=1
+
+To build:
+
+cmake --build . --config Release
